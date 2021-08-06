@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Website</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+<div class="text-box">
+	<h1>ST.JOSEPH'S S.S NAGGALAMA</h1>
+	<p>In providing quality education, the school is guided by some of the universal policies of the Catholic Church which are based on the Vatican documents like the Congregation for Catholic Education, Declaration on Christian Education – Gravissimum Educationis.</p>
+	<a href="" class="hero-btn">WELCOME</a>
+</div>
+</section>
+
+
+<!---Course--->
+<section class="course">
+	<h1>OUR ADMINISTRATION</h1>
+	<p>Messages from our Administration</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>HEADMISTRESS</h3>
+			<p>We thank the Almighty God who is at the helm of our success. We appreciate Bishop Christopher Kakooza for providing us with an enabling environment, love, prayers, guidance and support which is an incentive for us to excel in our work. We commend the Board of Governors, Parents Teachers Association, Naggalama Old Students Association, old and current staff, parents and guardians as well as the current students for executing their mandate. This exceptionally propels us to work harder. We pledge to do our best to implement our strategic objectives to scale new heights so as to bear fruit that will last.
+            </p>
+		</div>
+
+		<div class="course-col">
+			<h3>DEPUTY HEADTEACHER</h3>
+			<p>I feel very humbled to be part of the history of this wonderful College that was started in 1922 and has continued “to produce self reliant and acceptable citizens”in all sphere.Having studied from St.Joseph's Naggalama and left after completing form six in 1988, I have come back home to serve my School in the capacity of Deputy Head teacher and teacher of HIstory at the same time. I’m proud to have been trained by the Brothers and Sisters of Christian Instruction and now to fully associate with them.</p>
+		</div>
+
+		<div class="course-col">
+			<h3>CHAPLAIN</h3>
+			<p>St. Joseph’s Senior Secondary School Naggalama is a CATHOLIC FOUNDED SCHOOL and therefore follows Catholic Disciplines upon which Academic excellence is built. No one is therefore, expected to interfere in anyway or cause misdirection of the ideals of the founding body. In case of a breach of this regulation a person in breach shall suffer automatic expulsion from the school. I hope that each one of us has had enough time to study and understand the school rules with our children. We will therefore expect strict observance of these rules.</p>
+		</div>
+	</div>
+</section>
+
+
+<!---Facilities--->
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>Making our students feel at home.</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/library.png">
+			<h3>World Class Library</h3>
+			<p>The school has a well-stocked library to enable students and staff carryout research. Our collection of books are relevant to the academic needs of the learners. The renewal of stock of books is done annually and whenever need arises. The school has core course text books for every subjects at both O and A levels.</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/clinic.png">
+			<h3>Well Stocked Clinic</h3>
+			<p>World Health Organisation defines health as the physical, social and mental well-being of an individual and not merely the absence of disease or infirmity. It is impeccably known that the school medical team in co-operation with the school administration strives to keep the students of St. Joseph’s SSS Naggalama, physically, mentally and socially healthy which explains their astounding performance in various curricular and co – curricular activities. We also utilise the services of St. Francis Naggalama Hospital for referral cases.</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/classroom.png">
+			<h3>Comfortable classrooms</h3>
+			<p>The classes are shifting from being teacher-centered to student-centered. The role of the teacher is changing from being a ‘sage on the stage’ to the ‘guide on the side’. Students sit in groups of four. The chairs swivel so that students may more easily look each other in the eye while speaking. Individual white boards help introverted students participate in class and also serve as barriers during assessment time.  So far, the results have been good.</p>
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+
+
+<!--- Call to Action --->
+
+<section class="cta">
+	<h1>Enroll for our various curriculums <br> from anywhere</h1>
+	<a href="" class="hero-btn">CONTACT US</a>
+	
+</section>
+
+
+<!-----Footer----->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+
+	</div>
+	<p>Made by<i class="fa fa-gmail"></i> Mwesigwa Marvin</p>
+	
+</section>
+
+<!-----JS for menu----->
+<script >
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>

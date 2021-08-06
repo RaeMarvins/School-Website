@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Website</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="sub-header2">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>Our Services</h1>
+</section>
+
+<section class="course">
+	<h1>ACADEMIC PROGRAMS</h1>
+	<p>These are the programs we offer to our students.</p>
+
+	<div class="row">
+		<div class="course-col">
+			<h3>ORDINARY LEVEL</h3>
+			<p>English
+					Mathematics
+					Biology
+					Chemistry
+					Physics
+					Geography
+					History
+					Christian Religious Education
+					Fine Art
+					Entrepreneurship
+					Technical Drawing
+					Agriculture
+					Computer Studies
+					French.</p>
+		</div>
+
+		<div class="course-col">
+			<h3>ADVANCED LEVEL</h3>
+			<p>General Paper
+				Mathematics
+				Biology
+				Chemistry
+				Physics
+				Geography
+				History
+				Divinity
+				Fine Art
+				Economics
+				Entrepreneurship
+				Technical Drawing
+				Agriculture
+				Subsidiary ICT
+				Subsidiary Mathematics
+            </p>
+		</div>
+
+		<div class="course-col">
+			<h3>CO-CURRICULAR</h3>
+			<p>Every student must participate in at least one organised club or society activity for which a patron has been approved by the Head teacher.</p>
+		</div>
+	</div>
+</section>
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>Making our students feel at home.</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/library.png">
+			<h3>World Class Library</h3>
+			<p>The school has a well-stocked library to enable students and staff carryout research. Our collection of books are relevant to the academic needs of the learners. The renewal of stock of books is done annually and whenever need arises. The school has core course text books for every subjects at both O and A levels.</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/clinic.png">
+			<h3>Well Stocked Clinic</h3>
+			<p>World Health Organisation defines health as the physical, social and mental well-being of an individual and not merely the absence of disease or infirmity. It is impeccably known that the school medical team in co-operation with the school administration strives to keep the students of St. Joseph’s SSS Naggalama, physically, mentally and socially healthy which explains their astounding performance in various curricular and co – curricular activities. We also utilise the services of St. Francis Naggalama Hospital for referral cases.</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/classroom.png">
+			<h3>Comfortable classrooms</h3>
+			<p>The classes are shifting from being teacher-centered to student-centered. The role of the teacher is changing from being a ‘sage on the stage’ to the ‘guide on the side’. Students sit in groups of four. The chairs swivel so that students may more easily look each other in the eye while speaking. Individual white boards help introverted students participate in class and also serve as barriers during assessment time. . So far, the results have been good.</p>
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+
+
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+
+	</div>
+	<p>Made by<i class="fa fa-google"></i>Mwesigwa Marvin</p>
+	
+</section>
+
+<!-----JS for menu----->
+<script >
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>
